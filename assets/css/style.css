@@ -477,12 +477,14 @@ header{
    padding: 40px 20px 10px 20px;
 }
 
+
 .Logo{
    margin-bottom: 40px;
 }
 
 .navBar{
    justify-content: center;
+   width: 60%;
    margin-bottom: 40px;
 }
 
@@ -644,8 +646,18 @@ margin-left: 23%;
    }
 }
 
-/* large scree widths */
-@media (min-width: 769px) and (max-width: 1024px){
-   
-}
 
+/* LANDING PAGE MEDIA QUERIES */
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .landingSearchBar {
+      width: 70%;
+      margin: auto;
+      
+   }
+
+   #landingPageBtn {
+      width: 40%;
+      margin-left: 5px;
+   }
+}

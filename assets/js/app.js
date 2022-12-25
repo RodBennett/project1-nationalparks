@@ -38,7 +38,7 @@ let searchTerm = "";
 
 // array for names for autocomplete:
 const allParks = [
-  { name: "Acadia", code: "acad" },
+  { name: ["Acadia", "acadia"], code: "acad" },
   { name: "Arches", code: "arch" },
   { name: "Badlands", code: "badl" },
   { name: "Big Bend", code: "bibe" },
@@ -94,7 +94,7 @@ const allParks = [
   { name: "Wrangell-St. Elias and Preserve", code: "wrst" },
   { name: "Yellowstone", code: "yell" },
   { name: "Yosemite", code: "yose" },
-  { name: "Zion", code: "zion" },
+  { name: "Zion" || "zion", code: "zion" },
 ];
 
 // api key for parks
